@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("bg_01.avif");
+    /* background-size: contain; */
+    color: white;
+}
+
+h1{
+    font-size: 36px;
+}
+
+nav ul {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 200px;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgb(60, 59, 59);
+    /* padding: 5px; */
+    
+    }
